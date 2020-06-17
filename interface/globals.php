@@ -459,7 +459,7 @@ if (!empty($glrow)) {
     $GLOBALS['translate_document_categories'] = true;
     $GLOBALS['translate_appt_categories'] = true;
     $GLOBALS['timeout'] = 7200;
-    $openemr_name = 'OpenEMR';
+    $openemr_name = 'Apium Healthcare';
     $css_header = "$web_root/public/themes/style_default.css";
     $GLOBALS['css_header'] = $css_header;
     $GLOBALS['schedule_start'] = 8;

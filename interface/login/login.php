@@ -89,9 +89,9 @@ if (count($emr_app)) {
 
     <?php Header::setupHeader(); ?>
 
-    <title><?php echo text($openemr_name) . " " . xlt('Login'); ?></title>
+    <title><?php echo text('Apium Healthcare') . " " . xlt('Login'); ?></title>
 
-    <link rel="shortcut icon" href="<?php echo $GLOBALS['images_static_relative']; ?>/favicon.ico" />
+    <link rel="shortcut icon" href="../main/tabs/favicon.ico" />
 
     <script type="text/javascript">
         var registrationTranslations = <?php echo json_encode(array(
@@ -254,7 +254,7 @@ if (count($emr_app)) {
                     <div class="row">
                         <div class="mx-auto d-block login-title-label">
                             <?php if ($GLOBALS['show_label_login']) : ?>
-                                <?php echo text($openemr_name); ?>
+                                <?php echo text('Apium Healthcare'); ?>
                             <?php endif; ?>
                         </div>
                         <?php
@@ -341,23 +341,14 @@ if (count($emr_app)) {
             </div>
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <p class="small">
-                        <a href="../../acknowledge_license_cert.html" target="main"><?php echo xlt('Acknowledgments, Licensing and Certification'); ?></a>
-                    </p>
+
                 </div>
                 <div class="product-registration-modal modal fade">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header"></div>
-                            <div class="modal-body">
-                                <p class="context"><?php echo xlt("Register your installation with OEMR to receive important notifications, such as security fixes and new release announcements."); ?></p>
-                                <input placeholder="<?php echo xlt('email'); ?>" type="email" class="email w-100 text-body form-control" />
-                                <p class="message font-italic"></p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary submit" ><?php echo xlt("Submit"); ?></button>
-                                <button type="button" class="btn btn-secondary nothanks" ><?php echo xlt("No Thanks"); ?></button>
-                            </div>
+              
+        
                         </div>
                     </div>
                 </div>

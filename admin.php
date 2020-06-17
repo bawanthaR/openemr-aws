@@ -41,7 +41,7 @@ function sqlQuery($statement, $link)
 ?>
 <html>
 <head>
-<title>OpenEMR Site Administration</title>
+<title>Apium Healthcare Site Administration</title>
 <link rel="stylesheet" href="public/assets/bootstrap/dist/css/bootstrap.min.css" type="text/css">
 <script type="text/javascript" src="public/assets/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="public/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -187,7 +187,7 @@ function sqlQuery($statement, $link)
                         }
 
                         // Display relevant columns.
-                        echo "  <td>$openemr_name</td>\n";
+                        echo "  <td>Apium Healthcare</td>\n";
                         echo "  <td>$openemr_version</td>\n";
                         if ($v_database != $database_version) {
                             echo "  <td align='center'><a href='sql_upgrade.php?site=$sfname'>Upgrade Database</a></td>\n";

@@ -170,7 +170,7 @@ if ($_POST['form_get_hl7'] === 'true') {
 
     while ($r = sqlFetchArray($res)) {
         // MSH
-        $content .= "MSH|^~\&|" . strtoupper($openemr_name) .
+        $content .= "MSH|^~\&|" . strtoupper('Apium Healthcare') .
         "|" . $facility_info['name'] . "^" . $facility_info['facility_npi'] . "^NPI" .
         "|||$now||" .
         "ADT^A01^ADT_A01" . // Hard-code to A01: Patient visits provider/facility

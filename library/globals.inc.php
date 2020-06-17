@@ -283,7 +283,7 @@ $GLOBALS_METADATA = array(
         'openemr_name' => array(
             xl('Application Title'),
             'text',
-            'OpenEMR',
+            'Apium Healthcare',
             xl('Application name for login page and main window title.')
         ),
 

@@ -45,7 +45,7 @@ $esignApi = new Api();
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
-    <title><?php echo text($openemr_name); ?></title>
+    <title><?php echo text('Apium Healthcare'); ?></title>
 
     <script>
 
@@ -169,7 +169,7 @@ $esignApi = new Api();
 
     <?php Header::setupHeader(['knockout', 'tabs-theme', 'i18next']); ?>
 
-    <link rel="shortcut icon" href="<?php echo $GLOBALS['images_static_relative']; ?>/favicon.ico" />
+    <link rel="shortcut icon" href="favicon.ico" />
 
     <script type="text/javascript" src="js/custom_bindings.js?v=<?php echo $v_js_includes; ?>"></script>
     <script type="text/javascript" src="js/user_data_view_model.js?v=<?php echo $v_js_includes; ?>"></script>
