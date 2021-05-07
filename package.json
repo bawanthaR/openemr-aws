@@ -95,7 +95,7 @@
     "purecss": "1.0.1",
     "select2": "4.0.13",
     "summernote": "0.8.16",
-    "underscore": "1.10.2",
+    "underscore": "1.12.1",
     "validate.js": "0.13.1"
   },
   "napa": {
